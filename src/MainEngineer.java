@@ -1,8 +1,10 @@
 public class MainEngineer extends Engineer {
 
-    protected double bonus;
+    protected int bonus;
     
     public void working(){
+
+        super.working();
         System.out.println("Irányitok");
     }
     
